@@ -4,9 +4,9 @@ created git repository on github
 git remote add origin https://github.com/amt1/JS-DOM-Event-Listeners.git
 (in homework directory)
 npm init -y in homework directory
-create directories for public (css and js), src (helpers, models, views), specs 
+create directories for public (css and js), src (helpers, models, views), specs
 created index.html, styles.css, list_app.js and list_app_spec.js
-greated .gitignore file with node_modules on line 1
+created .gitignore file with node_modules on line 1, bundle.js on line 2
 npm install in homework directory to create package-lock.json file
 git add, commit
 git push -u origin master
