@@ -1,0 +1,19 @@
+{
+  "name": "hw_pubsub_prime_checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amt1/pub-sub-prime-numbers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amt1/pub-sub-prime-numbers/issues"
+  },
+  "homepage": "https://github.com/amt1/pub-sub-prime-numbers#readme"
+}
