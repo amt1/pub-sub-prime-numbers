@@ -10,3 +10,17 @@ created .gitignore file with node_modules on line 1, bundle.js on line 2
 npm install in homework directory to create package-lock.json file
 git add, commit
 git push -u origin master
+
+
+Webpack
+
+You will need to set-up webpack in your application:
+
+1. Install 'webpack' and 'webpack-cli' - `npm install webpack webpack-cli`
+2. Create a webpack config file - webpack.config.js
+3. Add the configuration details to the config file
+4. Add a script to the package.json to run webpack in watch mode - `"build": "webpack -w"`
+5. Add a script tag to link to the bundled file in the HTML - `<script type="text/javascript" src="js/bundle.js"></script>`
+6. Run webpack - `npm run build`
+7. Check the log that shows the JavaScript has loaded is showing in the browser console.
+8. Add `bundle.js` to a .gitignore file

@@ -14,9 +14,20 @@ PrimeNumberChecker.prototype.bindEvents = function(){
 };
 
 PrimeNumberChecker.prototype.checkPrime = function (number) { // NEW
-  const ifItsPrime = true;
+  const numberToCheck = number;
+  const checkLimit = (numberToCheck / 2);
+  console.log('checkLimit', checkLimit);
+  if (numberToCheck <= 1) {
+    return false;
+  }
+  for (let i=2; i <= checkLimit; i++) {
+    if (numberToCheck % i ===0) {
+      return false;
+    }
+  }
   // add the logic here later, get the info flow working first
-  return ifItsPrime;
+// done
+  return true;
 };
 
 module.exports = PrimeNumberChecker;
